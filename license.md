@@ -1,6 +1,6 @@
-Copyright IMT Atlantique/OceaniX, contributor(s) : M.M. Amar, M. Beauchamp, R. Fablet, Q. Febvre (IMT Atlantique), B. Carpentier (CLS) 21/05/2021
+Copyright IMT Atlantique/OceaniX, contributor(s) : T. Picard (UBO), R. Fablet (IMT Atlantique), L. Mémery (CNRS), J. Gula (UBO), 14/11/2023
 
-Contact person: ronan.fablet@imt-atlantique.fr
+Contact person: theo.picard@univ-brest.fr
 
 CeCILL-C FREE SOFTWARE LICENSE AGREEMENT
 
