@@ -4,6 +4,12 @@ SPARO stands for Sediment traps PARticule Origin. This is a Convolutional Neural
 
 # Publication
 
-# Code
+Learning-based prediction of the particles catchment area of deep ocean sediment traps
+
+Incoming soon ...
+
+# Data
+
+Incoming soon
 
 # Licence 
