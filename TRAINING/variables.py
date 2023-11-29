@@ -1,22 +1,26 @@
-# TO EDIT
-
+###### VAR FOR TRAINING ###### 
 
 batch_size = 32
-coef_pooling = 4 # choose between 0 to 5 ?
+coef_pooling = 4 
 max_epochs = 50
 num_workers=0
 nb_gpus = 1
 nb_dx = 100
 alpha1 = 0.8
 alpha2 = 1 - alpha1
+
+
 # Index to select training and validation cases
 index_training_start = 36
 index_training_end = 275
 index_validation_start = 285
 index_validation_end = 319
 
+
+###### VAR FOR DATA NORMALIZATION [SAVED FOR FASTER LOADING] ###### 
+
 index_surface = [0,4,8,12,16,17,21,25,29,33,34,38,42,46,50,51,55,59,63,67]
-#cnn_type = 'surf'
+
 list_mean_train_surface = [14.883082,
  -0.0004332636,
  0.051357556,

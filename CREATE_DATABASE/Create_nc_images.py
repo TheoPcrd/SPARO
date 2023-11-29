@@ -82,8 +82,6 @@ def compute_variable(tstart,ic,jc):
     
     return (vrt,temp,ssh,u,v)
 
-
-
 # # Create the nc file
 # For one period, create a nc file containning all the images needed
 

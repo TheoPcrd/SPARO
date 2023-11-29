@@ -15,7 +15,7 @@ from torch import optim
 import progressbar
 import torch
 from torch.utils.data import DataLoader, Dataset
-from variables_dx import *
+from variables import *
 
 # LOAD ALL THE RAW IMAGES 
 
@@ -311,6 +311,8 @@ def load_images_train(nb):
         images = np.asfortranarray(nc.variables['images'])
     elif nb=='half':
         images = np.asfortranarray(nc.variables['images'][::2])
+    else :
+        images = np.asfortranarray(nc.variables['images'][::nb])
     nc.close()
     print('Done')
     return(images)
