@@ -1,0 +1,1853 @@
+/mnt/shirma/gula/ROMS/Simulations/ATLBIG/Energy/atlbig_eddy_fluxes_all.nc
+format is, classic
+/mnt/comanche/gula/REYKJA/HIS/COMPRESSED
+ncdump: /mnt/comanche/gula/REYKJA/HIS/COMPRESSED: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/COMPRESSED.log
+ncdump: /mnt/comanche/gula/REYKJA/HIS/COMPRESSED.log: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/nohup.out
+ncdump: /mnt/comanche/gula/REYKJA/HIS/nohup.out: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh
+ncdump: /mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh~
+ncdump: /mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh~: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/reykja_grd.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0000.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0002.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0004.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0006.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0010.nc
+format is, 64-bit offset
+Traceback (most recent call last):
+  File "/usr/bin/nc3tonc4", line 237, in <module>
+    nc3tonc4(filename3,filename4,unpackshort=unpackshort,zlib=zlib,complevel=complevel,shuffle=shuffle,fletcher32=fletcher32,clobber=overwritefile,lsd_dict=lsd_dict,nchunk=chunk,quiet=quiet,classic=classic)
+  File "/usr/bin/nc3tonc4", line 100, in nc3tonc4
+    var[n:nmax] = tmpdata
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/bin/nc3tonc4", line 237, in <module>
+    nc3tonc4(filename3,filename4,unpackshort=unpackshort,zlib=zlib,complevel=complevel,shuffle=shuffle,fletcher32=fletcher32,clobber=overwritefile,lsd_dict=lsd_dict,nchunk=chunk,quiet=quiet,classic=classic)
+  File "/usr/bin/nc3tonc4", line 100, in nc3tonc4
+    var[n:nmax] = tmpdata
+KeyboardInterrupt
+/mnt/shirma/gula/ROMS/Simulations/ATLBIG/Energy/atlbig_eddy_fluxes_all.nc
+format is, classic
+testing temp
+testing all vars
+Traceback (most recent call last):
+  File "./check_netcdf_files.py", line 30, in <module>
+    test = test and np.isnan(nc.variables[var][:].sum()) or nc.variables[var][:].sum()==znc.variables[var][:].sum()
+  File "netCDF4.pyx", line 2648, in netCDF4.Variable.__getitem__ (netCDF4.c:32990)
+  File "netCDF4.pyx", line 3183, in netCDF4.Variable._get (netCDF4.c:39028)
+  File "netCDF4.pyx", line 2387, in netCDF4.Variable.dimensions.__get__ (netCDF4.c:29715)
+  File "netCDF4.pyx", line 2363, in netCDF4.Variable._getdims (netCDF4.c:29318)
+  File "/usr/lib64/python2.7/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+KeyboardInterrupt
+/mnt/comanche/gula/REYKJA/HIS/COMPRESSED
+ncdump: /mnt/comanche/gula/REYKJA/HIS/COMPRESSED: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/COMPRESSED.log
+ncdump: /mnt/comanche/gula/REYKJA/HIS/COMPRESSED.log: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/nohup.out
+ncdump: /mnt/comanche/gula/REYKJA/HIS/nohup.out: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh
+ncdump: /mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh~
+ncdump: /mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh~: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/reykja_grd.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0000.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0002.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0004.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0006.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0008.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0010.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0012.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0014.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0016.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0018.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0020.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0022.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0024.nc
+format is, 64-bit offset
+testing vvrt
+/mnt/shirma/gula/ROMS/Simulations/ATLBIG/Energy/atlbig_eddy_fluxes_vert.nc
+format is, classic
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0026.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0028.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0030.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0032.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0034.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0036.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0038.nc
+format is, 64-bit offset
+./znetcdf.bash: line 17: 23946 Killed                  nc3tonc4 --chunk=1 --complevel=6 $i $i.znc > $COMPRESSED.log
+/mnt/comanche/gula/REYKJA/HIS/COMPRESSED
+ncdump: /mnt/comanche/gula/REYKJA/HIS/COMPRESSED: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/COMPRESSED.log
+ncdump: /mnt/comanche/gula/REYKJA/HIS/COMPRESSED.log: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/nohup.out
+ncdump: /mnt/comanche/gula/REYKJA/HIS/nohup.out: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh
+ncdump: /mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh~
+ncdump: /mnt/comanche/gula/REYKJA/HIS/retrieve_reykja.csh~: NetCDF: Unknown file format
+/mnt/comanche/gula/REYKJA/HIS/reykja_grd.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0000.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0002.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0004.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0006.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0008.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0010.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0012.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0014.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0016.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0018.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0020.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0022.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0024.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0026.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0028.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0030.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0032.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0034.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0036.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0038.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0040.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0042.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0044.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0046.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0048.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0050.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0052.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0054.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0056.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0058.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0060.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0062.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0064.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0066.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0068.nc
+format is, 64-bit offset
+testing hbbls
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0070.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0072.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0074.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0076.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0078.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0080.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0082.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0084.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0086.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0088.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0090.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0092.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0094.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0096.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0098.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0100.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0102.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0104.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0106.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0108.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0110.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0112.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0114.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0116.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0118.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0120.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0122.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0124.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0126.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0128.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0130.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0132.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0134.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0136.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0138.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0140.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0142.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0144.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0146.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0148.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0150.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0152.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0154.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0156.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0158.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0160.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0162.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0164.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0166.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0168.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0170.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0172.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0174.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0176.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0178.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0180.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0182.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0184.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0186.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0188.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0190.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0192.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0194.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0196.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0198.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0200.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0202.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0204.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0206.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0208.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0210.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0212.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0214.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0216.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0218.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0220.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0222.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0224.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0226.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0228.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0230.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0232.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0234.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0236.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0238.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0240.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0242.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0244.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0246.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0248.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0250.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0252.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0254.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0256.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0258.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0260.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0262.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0264.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0266.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0268.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0270.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0272.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0274.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0276.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0278.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0280.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0282.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0284.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0286.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0288.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0290.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0292.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0294.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0296.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0298.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0300.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0302.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0304.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0306.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0308.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0310.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0312.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0314.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0316.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0318.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0320.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0322.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0324.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0326.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0328.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0330.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0332.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0334.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0336.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0338.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0340.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0342.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0344.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0346.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0348.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0350.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0352.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0354.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0356.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0358.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0360.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0362.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0364.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0366.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0368.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0370.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0372.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0374.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0376.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0378.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0380.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0382.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0384.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0386.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0388.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0390.nc
+/mnt/comanche/gula/REYKJA/HIS/reykja_his.0392.nc
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/COMPRESSED
+ncdump: /mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/COMPRESSED: NetCDF: Unknown file format
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/COMPRESSED.log
+ncdump: /mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/COMPRESSED.log: NetCDF: Unknown file format
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0000.nc
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0002.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0004.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0006.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0008.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0010.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0012.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0014.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0016.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0018.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0020.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0022.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0024.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0026.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0028.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0030.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0032.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0034.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0036.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0038.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0040.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0042.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0044.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0046.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0048.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0050.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0052.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0054.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0056.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0058.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0060.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0062.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0064.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0066.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0068.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0070.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0072.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0074.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0076.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0078.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0080.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0082.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0084.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0086.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0088.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0090.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0092.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0094.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0096.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0098.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0100.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0102.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0104.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0106.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0108.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0110.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0112.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0114.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0116.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0118.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0120.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0122.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0124.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0126.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0128.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0130.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0132.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0134.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0136.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0138.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0140.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0142.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0144.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0146.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0148.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0150.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0152.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0154.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0156.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0158.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0160.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0162.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0164.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0166.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0168.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0170.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0172.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0174.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0176.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0178.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0180.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0182.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0184.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0186.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0188.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0190.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0192.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0194.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0196.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0198.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0200.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0202.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0204.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0206.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0208.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0210.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0212.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0214.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0216.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0218.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0220.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0222.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0224.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0226.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0228.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0230.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0232.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0234.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0236.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0238.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0240.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0242.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0244.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0246.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0248.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0250.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0252.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0254.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0256.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0258.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0260.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0262.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0264.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0266.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0268.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0270.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0272.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0274.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0276.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0278.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0280.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0282.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0284.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0286.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0288.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0290.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0292.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0294.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0296.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0298.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0300.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0302.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0304.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0306.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0308.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0310.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0312.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0314.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0316.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0318.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0320.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0322.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0324.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0326.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0328.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0330.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0332.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0334.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0336.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0338.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0340.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0342.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0344.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0346.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0348.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0350.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0352.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0354.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0356.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0358.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0360.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0362.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0364.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0366.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0368.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0370.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0372.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0374.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0376.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0378.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0380.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0382.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0384.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0386.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0388.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0390.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0392.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0394.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0396.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0398.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0400.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0402.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0404.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0406.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0408.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0410.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0412.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0414.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0416.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0418.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0420.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0422.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0424.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0426.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0428.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0430.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0432.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0434.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0436.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0438.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0440.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0442.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0444.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0446.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0448.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0450.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0452.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0454.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0456.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0458.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0460.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0462.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0464.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0466.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0468.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0470.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0472.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0474.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0476.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0478.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0480.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0482.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0484.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0486.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0488.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0490.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0492.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0494.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0496.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0498.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0500.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0502.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0504.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0506.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0508.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0510.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0512.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0514.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0516.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0518.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0520.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0522.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0524.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0526.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0528.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0530.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0532.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0534.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0536.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0538.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0540.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0542.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0544.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0546.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0548.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0550.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0552.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0554.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0556.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0558.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0560.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0562.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0564.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0566.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0568.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0570.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0572.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0574.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0576.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0578.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0580.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0582.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0584.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0586.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0588.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0590.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0592.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0594.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0596.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0598.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0600.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0602.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0604.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0606.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0608.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0610.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0612.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0614.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0616.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0618.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0620.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0622.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0624.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0626.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0628.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0630.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0632.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0634.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0636.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0638.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0640.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0642.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0644.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0646.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0648.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0650.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0652.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0654.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0656.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0658.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0660.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0662.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0664.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0666.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0668.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0670.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0672.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0674.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0676.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0678.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0680.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0682.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0684.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0686.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0688.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0690.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0692.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0694.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0696.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0698.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0700.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0702.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0704.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0706.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0708.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0710.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0712.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0714.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0716.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0718.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0720.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0722.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0724.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0726.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0728.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0730.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0732.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0734.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0736.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0738.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0740.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0742.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0744.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0746.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0748.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0750.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0752.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0754.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0756.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0758.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0760.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0762.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0764.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0766.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0768.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0770.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0772.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0774.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0776.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0778.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0780.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0782.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0784.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0786.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0788.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0790.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0792.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0794.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0796.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0798.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0800.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0802.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0804.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0806.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0808.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0810.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0812.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0814.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0816.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0818.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0820.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0822.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0824.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0826.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0828.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0830.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0832.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0834.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0836.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0838.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0840.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0842.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0844.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0846.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0848.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0850.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0852.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0854.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0856.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0858.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0860.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0862.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0864.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0866.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0868.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0870.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0872.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0874.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0876.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0878.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0880.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0882.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0884.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0886.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0888.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0890.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0892.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0894.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0896.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0898.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0900.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0902.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0904.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0906.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0908.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0910.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0912.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0914.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0916.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0918.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0920.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0922.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0924.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0926.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0928.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0930.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0932.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0934.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0936.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0938.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0940.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0942.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0944.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0946.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0948.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0950.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0952.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0954.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0956.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0958.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0960.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0962.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0964.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0966.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0968.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0970.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0972.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0974.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0976.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0978.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0980.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0982.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0984.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0986.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0988.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0990.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0992.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0994.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0996.nc
+format is, classic
+testing Ke
+/mnt/kamiya/gula/ROMS/Simulations/CUC/bilan_energy/cuc_energy_zoom_4.0.0998.nc
+format is, classic
+testing Ke
