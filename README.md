@@ -12,4 +12,4 @@ Picard, T., Gula, J., Fablet, R., Memery, L., and Collin, J.: Data for learning-
 
 # DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10203352.svg)](https://doi.org/10.5281/zenodo.10203352)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13899396.svg)](https://doi.org/10.5281/zenodo.13899396)
